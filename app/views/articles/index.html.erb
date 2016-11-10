@@ -1,0 +1,22 @@
+<h1>Your Posts</h1>
+
+<%= link_to 'New article', new_article_path, class:"button" %>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+  </tr>
+
+  <% @articles.each do |article| %>
+    <tr>
+      <td><%= article.title %></td>
+      <td><%= truncate(article.text) %></td>
+      <td><%= link_to 'View', article_path(article), class:"button" %></td>
+      <td><%= link_to 'Edit', edit_article_path(article), class:"button" %></td>
+      <td><%= link_to 'Delete', article_path(article), class:"button",
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+</table>

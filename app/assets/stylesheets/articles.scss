@@ -1,0 +1,120 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+input[type='submit']{
+  min-width:100px;
+  height:30px;
+  border-radius: 5px;
+  font-family: inherit;
+  background-color: slategray;
+  color:white;
+}
+
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html {
+  background: url(notebook-pencil-notes-sketch.jpg) no-repeat center left fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Questrial', sans-serif;
+}
+
+h1{
+  font-size: 3em;
+  margin-bottom:0;
+}
+textarea#article_text {
+  width:600px;
+  height:400px;
+}
+
+div#markDown{
+  width:600px;
+  min-height:30px;
+  background-color:white;
+  border: 1px solid darkgray;
+}
+
+input#article_title{
+  width:600px;
+  height:30px;
+}
+
+#callToAction {
+  display:block;
+  width:10em;
+  height:1.5em;
+  background-color: papayawhip;
+  border-radius:10px;
+  font-size:1.25em;
+  line-height: 1.25em;
+  color:black;
+  padding:10px;
+  box-shadow: 2px 2px 2px 2px darkgray;
+  text-align:center;
+  text-decoration: none;
+
+}
+
+.green {
+  border: 3px solid palegreen;
+  box-shadow: 2px green;
+  background-color: honeydew;
+}
+
+i.goalReached{
+  color:darkgreen;
+}
+i{
+  margin-right:10px;
+}
+
+td, th{
+  padding:10px 20px 10px 0px;
+  text-align:left;
+}
+
+tr{
+  border-bottom: 3px solid darkgray;
+  border-top: 3px solid darkgray;
+}
+
+tr:first-of-type{
+  border-top:none;
+}
+
+th{
+  font-size: 1.5em;
+}
+table{
+  border-collapse: collapse;
+}
+input[type='submit'], a.button{
+  display:inline-block;
+  min-width:50px;
+  height:30px;
+  padding:5px 10px;
+  background-color:papayawhip;
+  box-shadow: 2px 2px 2px 2px darkgray;
+  border-radius:5px;
+  text-decoration:none;
+  color:black;
+  text-align:center;
+  font-size:16px;
+  line-height:16px;
+  box-sizing:border-box;
+  margin:10px 0;
+}
+
+div.textDisplay{
+  width:600px;
+}
+
+#wordCount{
+  font-size:1.25em;
+  font-weight:bold;
+  margin-top:20px;
+}
