@@ -1,24 +1,7 @@
-# README
+# 750 Words Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The 750 Word Blog was developed as part of Academy Pittsburgh.  The blog is meant to emulate 750words.com, a blogging platform which encourages users to write 750 words per day.  The application tracks the number of words the user has typed, and alerts them when the goal has been reached.  *Please note that for demonstration purposes, the blog will signal that the goal has been completed after 10 words.
 
-Things you may want to cover:
+750 Words Blog was created using Ruby on Rails and the Countable.js 
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
